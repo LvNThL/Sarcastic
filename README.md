@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Sarcastic Drawl - React Edition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that creates a sarcastic drawl effect when displaying text. It's based on the C++ version but implemented as a web application.
+
+## Features
+
+- Simulates a sarcastic drawl by introducing variable timing delays when revealing text
+- Uses a sarcastic color scheme with light aqua text on dark background
+- Allows users to input their own phrases to display with a sarcastic drawl
+- Responsive design that works on mobile and desktop
 
 ## Available Scripts
 
@@ -14,11 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -27,20 +29,46 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deploying to GitHub Pages
 
-### `npm run eject`
+To deploy this application to GitHub Pages, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Create a new GitHub repository for your project
+2. Initialize git in your project folder (if not already done):
+   ```
+   git init
+   ```
+3. Add the remote repository:
+   ```
+   git remote add origin https://github.com/yourusername/sarcastic-drawl-react.git
+   ```
+4. Commit your changes:
+   ```
+   git add .
+   git commit -m "Initial commit"
+   ```
+5. Push to GitHub:
+   ```
+   git push -u origin main
+   ```
+6. Deploy to GitHub Pages:
+   ```
+   npm run deploy
+   ```
+7. Visit your deployed site at: https://yourusername.github.io/sarcastic-drawl-react
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Note: Replace `yourusername` with your actual GitHub username in the URLs above.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## How It Works
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The application uses React's state and effect hooks to create a typewriter-like effect with variable timing delays. Similar to the C++ version, it applies different delay patterns to:
 
-## Learn More
+- Vowels (for emphasis)
+- Punctuation (for dramatic pauses)
+- Spaces (for timing)
+- Apostrophes (for extra emphasis)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The styling uses a dark theme with light aqua text (a stereotypically "sarcastic" color) for maximum sarcastic effect.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
