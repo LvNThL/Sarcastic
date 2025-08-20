@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sarcastic/static/css/main.7d6135b7.css",
+    "main.js": "/Sarcastic/static/js/main.bb27d636.js",
+    "static/js/453.04694b56.chunk.js": "/Sarcastic/static/js/453.04694b56.chunk.js",
+    "index.html": "/Sarcastic/index.html",
+    "main.7d6135b7.css.map": "/Sarcastic/static/css/main.7d6135b7.css.map",
+    "main.bb27d636.js.map": "/Sarcastic/static/js/main.bb27d636.js.map",
+    "453.04694b56.chunk.js.map": "/Sarcastic/static/js/453.04694b56.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d6135b7.css",
+    "static/js/main.bb27d636.js"
+  ]
+}
