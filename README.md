@@ -29,36 +29,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-## Deploying to GitHub Pages
-
-To deploy this application to GitHub Pages, follow these steps:
-
-1. Create a new GitHub repository for your project
-2. Initialize git in your project folder (if not already done):
-   ```
-   git init
-   ```
-3. Add the remote repository:
-   ```
-   git remote add origin https://github.com/yourusername/sarcastic-drawl-react.git
-   ```
-4. Commit your changes:
-   ```
-   git add .
-   git commit -m "Initial commit"
-   ```
-5. Push to GitHub:
-   ```
-   git push -u origin main
-   ```
-6. Deploy to GitHub Pages:
-   ```
-   npm run deploy
-   ```
-7. Visit your deployed site at: https://yourusername.github.io/sarcastic-drawl-react
-
-Note: Replace `yourusername` with your actual GitHub username in the URLs above.
-
 ## How It Works
 
 The application uses React's state and effect hooks to create a typewriter-like effect with variable timing delays. Similar to the C++ version, it applies different delay patterns to:
